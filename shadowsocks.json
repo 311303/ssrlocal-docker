@@ -1,0 +1,14 @@
+{
+	"server":"0.0.0.0",
+	"server_ipv6": "::",
+	"server_port":8388,
+	"local_address": "0.0.0.0",
+	"local_port":1082,
+	"password":"000000",
+	"timeout":300,
+	"obfs":"tls1.2_ticket_auth",
+	"protocol":"auth_sha1_v4",
+	"method":"aes-256-cfb",
+	"fast_open": false,
+	"workers": 1
+}
