@@ -12,6 +12,9 @@ RUN apk update \
 
 ADD shadowsocks.json /ssr/shadowsocks.json
 
+ENV SERVER_PORT=8388
+ENV LOCAL_PORT=1082
+
 EXPOSE $SERVER_PORT
 EXPOSE $LOCAL_PORT
 
